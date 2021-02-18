@@ -1,0 +1,21 @@
+(module castellated_2.54mm_smd_x3 (layer "F.Cu")
+  
+  (fp_text reference "J3" (at -4.7 0.1 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+
+  )
+  (fp_text value "Conn_01x03" (at 0 3.9 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+
+  )
+  (fp_text user "${REFERENCE}" (at 0 5.6 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+
+  )
+  (pad 1 thru_hole circle (at -2.54 1.6) (size 0.6 0.6) (drill 0.4) (layers *.Cu *.Mask))
+  (pad 1 thru_hole roundrect (at -2.54 0) (size 1.524 2.8) (drill 1 (offset 0 0.7)) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad 2 thru_hole roundrect (at 0 0) (size 1.524 2.8) (drill 1 (offset 0 0.7)) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad 2 thru_hole circle (at 0 1.6) (size 0.6 0.6) (drill 0.4) (layers *.Cu *.Mask))
+  (pad 3 thru_hole roundrect (at 2.54 0) (size 1.524 2.8) (drill 1 (offset 0 0.7)) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad 3 thru_hole circle (at 2.54 1.6) (size 0.6 0.6) (drill 0.4) (layers *.Cu *.Mask))
+)
